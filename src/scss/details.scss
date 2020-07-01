@@ -1,0 +1,60 @@
+@import './config.scss';
+
+/*.........details........*/
+.preview {
+    display: flex;
+    flex-direction: column;
+  
+    @media screen and (tablet) {
+      .preview {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .preview-pic {
+    flex-grow: 1;
+  }
+  .tab-content {
+    overflow: hidden;
+  }
+  .tab-content img {
+    width: 100%;
+  }
+  .deatils-wrapper {
+    margin-top: 50px;
+    background: $white !important;
+    padding: 3em;
+    line-height: 1.5em;
+   }
+   .product-title, .price, .sizes, .colors {
+    text-transform: UPPERCASE;
+    font-weight: bold;
+   }
+  
+  .checked, .price span {
+    color: $orange;
+   }
+  
+  .product-title, .rating,
+   .product-description, 
+   .price, 
+   .vote,
+   .sizes {
+    margin-bottom: 15px;
+   }
+  
+  .product-title {
+    margin-top: 0;
+   }
+   .add-to-cart, .like {
+    background: $orange;
+    padding: 1.2em 1.5em;
+    border: none;
+    text-transform: UPPERCASE;
+    font-weight: bold;
+    color: $white;
+    }
+    .add-to-cart:hover, .like:hover {
+      background: $orange;
+      color: $white; 
+    }

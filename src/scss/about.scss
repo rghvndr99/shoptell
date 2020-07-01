@@ -1,0 +1,19 @@
+@import './config.scss';
+
+/*..................about us form .............*/
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: $gray1;
+    color: $gray;
+  }
+  .profile-container {
+    box-shadow: 0 4px 8px 0 $blackshade3;
+    margin: 8px;
+  }
+  .profile-wrap {
+    justify-content: center;
+  }
+  .profile-img {
+    width: 100%;
+  }

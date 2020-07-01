@@ -1,0 +1,8 @@
+#commentForm {
+    & .rating-active{
+        color: $gold;
+     }
+    & .rating {
+        cursor: pointer;
+     }
+}

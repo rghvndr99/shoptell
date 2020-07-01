@@ -1,0 +1,11 @@
+@import './config.scss';
+ 
+/*..............favorite............*/
+.favorite-placeholder{
+    position: absolute;
+    color:$primary2;
+    left: 4px;
+}
+.favorite-placeholder.active {
+   color:$border1;
+}

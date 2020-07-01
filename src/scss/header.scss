@@ -1,0 +1,26 @@
+@import './config.scss';
+
+
+/*..........Header..........*/
+.headerNav {
+    padding: 20px;
+    background-color: $primary1;
+    & a{
+      margin: 0 20px;
+      color:$white;
+      &:hover {
+        color:$white;
+      }
+      &.active{
+        text-decoration: underline;
+      }
+    }
+  
+  .user-link {
+    float:right;
+    & img {
+      margin-top: -9px;
+      border-radius: 21px;
+    }
+  }
+}

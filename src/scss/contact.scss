@@ -1,0 +1,22 @@
+@import './config.scss';
+
+/*..................contact us form................*/
+
+.contactus{
+    &.jumbotron {
+        background: $gray1;
+        border-radius: 0px;
+     }
+    &.jumbotron-sm { 
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+      
+    & .h1 small {
+        font-size: 24px;
+    }
+    & .contct-form-field {
+        
+        padding: 15px;
+    }
+}

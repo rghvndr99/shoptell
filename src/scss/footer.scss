@@ -1,0 +1,13 @@
+@import './config.scss';
+
+/*..........Footer..........*/
+.footer {
+    background-color: $primary1;
+    bottom:0;
+    color:$white;
+    margin-top: 20px;
+  }
+  
+  .footer a, .footer a:hover{
+    color:$white;
+  }
