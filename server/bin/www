@@ -17,17 +17,17 @@ var port = normalizePort(process.env.PORT || '3001');
 app.set('port', port);
 app.set('secPort',port+440);
 
-const options={
+/*const options={
   key:fs.readFileSync(__dirname+'/private.key'),
   cert: fs.readFileSync(__dirname+'/certificate.pem')
-}
+}*/
 
 /**
  * Create HTTP server.
  */
 
 var server = http.createServer(app);
-const secureServer= https.createServer(options,app);
+const secureServer= https.createServer({},app);
 
 /**
  * Listen on provided port, on all network interfaces.
